@@ -23,6 +23,7 @@ Haskell is a statically-typed, purely functional programming language known for 
 
 
 **INSTALLING A HASKELL IMPLEMENTATION**
+
 There are many compilers and implementations of Haskell. One of the most popular one is GHC (Glasgow Haskell Compiler).
 To install the compiler alone, go to https://www.haskell.org/ghc/.
 In most cases it is more convenient to install an entire Haskell distribution, which comes with other tools along with the compiler.
@@ -31,8 +32,8 @@ Once the download is complete, there are multiple ways to compile and run Haskel
 First off, remember to check the environment variables of the operating system, to verify that the bin folder where the Haskell compiler and other 
 tools reside is under the PATH variable. If you install the entire Haskell distribution, the bin folder with all you need is usually under C:\ghcup\bin.
 
-First off, it is necessary to know how and where to write the code:
-- The Haskell code should be written in files with a .hs extension, which is the extension for source code Haskell files that can be fed to the compiler.
+First of all, it is necessary to know how and where to write the code:
+- Haskell code should be written in files with a .hs extension, which is the extension for source code Haskell files that can be fed to the compiler.
 - Each Haskell source code file has to declare a module name at the beginning in order to be correctly executed. The module name has to start with a capital 
   letter and it can have any name. The syntax to do that is the following:
 
