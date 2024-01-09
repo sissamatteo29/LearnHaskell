@@ -38,11 +38,13 @@ First of all, it is necessary to know how and where to write the code:
   letter and it can have any name. The syntax to do that is the following:
 
   module <module_name> where 
+
   	... Haskell code ...
 
   For example:
 
   module Main where
+  
   main = putStrl "Hello World!"
 
 
